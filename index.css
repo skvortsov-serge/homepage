@@ -1,10 +1,17 @@
-.color:before {
-  display: none;
+main {
+  background-image: url('us-flag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
 }
 
 .avatar {
   padding-top: 20px;
   margin: 0 auto;
+}
+
+.color:before {
+  display: none;
 }
 
 .details {
