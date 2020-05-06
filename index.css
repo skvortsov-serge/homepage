@@ -1,0 +1,34 @@
+.color:before {
+  display: none;
+}
+
+.avatar {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.details {
+  padding-left: 15px;
+}
+
+.contacts svg {
+  vertical-align: text-top;
+  width: 15px;
+  height: 15px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .contacts {
+      flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contacts {
+    display: flex;
+    justify-content: center;
+  }
+  .contacts li {
+    margin-right: 10px;
+  }
+}
