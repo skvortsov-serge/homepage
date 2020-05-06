@@ -1,0 +1,41 @@
+main {
+  background-image: url('us-flag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
+
+.avatar {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.color:before {
+  display: none;
+}
+
+.details {
+  padding-left: 15px;
+}
+
+.contacts svg {
+  vertical-align: text-top;
+  width: 15px;
+  height: 15px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .contacts {
+      flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contacts {
+    display: flex;
+    justify-content: center;
+  }
+  .contacts li {
+    margin-right: 10px;
+  }
+}
