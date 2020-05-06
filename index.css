@@ -10,7 +10,7 @@ main {
   margin: 0 auto;
 }
 
-.color:before {
+.color::before {
   display: none;
 }
 
@@ -35,6 +35,7 @@ main {
     display: flex;
     justify-content: center;
   }
+
   .contacts li {
     margin-right: 10px;
   }
